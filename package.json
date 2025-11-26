@@ -1,0 +1,15 @@
+{
+  "name": "speckit-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper API to run spec-kit-mcp tools via MCP (stdio) and expose HTTP endpoints",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "simple-git": "^3.19.1",
+    "body-parser": "^1.20.2"
+  }
+}
